@@ -1,11 +1,58 @@
+#homepage {
+  font-family: "Taviraj", serif;
+}
+#aboutpage {
+  font-family: "Source Serif Pro", serif;
+}
+/* or just import them at the top of the styles page isntead of writing in the html file
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+*/
 h3 {
-  color: rgb(22, 80, 16);
+  color: rgb(31, 54, 29);
 }
 
 h2 {
-  color: blueviolet;
+  color: rgb(65, 26, 102);
 }
 
-h1 {
-  color: chocolate;
+/* for the unique IDs you use # */
+#title {
+  color: rgb(175, 201, 58);
 }
+
+#proc1 {
+  color: navy;
+}
+#proc2 {
+  color: thistle;
+  background-color: rgb(50, 87, 50);
+  font-size: large;
+  width: 200px;
+}
+/* for classes you use a dot */
+.jesus {
+  color: royalblue;
+}
+.holy {
+  color: crimson;
+  font-family: "Taviraj", serif;
+}
+.word {
+  color: purple;
+}
+/* the EM and REM values for selection, just like PX
+EM = relative, depends on parent
+1em = 16px, the defaul browser thing/base value
+
+REM = relative, depends on the root.
+-> by root we mean the main doc braket such as html{}
+for the rest = same as Em but for root
+
+Then (vh & wh) are for width or height percent of screen
+*/
