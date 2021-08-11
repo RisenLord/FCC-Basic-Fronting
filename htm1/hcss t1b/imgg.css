@@ -1,0 +1,33 @@
+/* * {
+  background-color: linear-gradient (yellow, purple);
+} */
+
+div {
+  height: 300px;
+  color: rgb(12, 241, 12);
+  font-size: 15px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* background-size: 10px; */
+}
+.bimg {
+  background: url("imgss/it's already begun, AWM.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.simg {
+  background: url("imgss/Ug young dons.jpeg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  margin-bottom: 10px;
+}
+.mimg {
+  background: url("imgss/Ug young dons func.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}

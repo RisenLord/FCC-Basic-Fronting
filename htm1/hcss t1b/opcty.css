@@ -1,0 +1,19 @@
+/* display:none, opacity:0, vis:hidden */
+div {
+  background-color: rgb(114, 134, 80);
+  margin: 20px;
+  color: azure;
+  /* display: inline-block; */
+}
+.none {
+  display: none;
+}
+.opc-1 {
+  opacity: 1;
+}
+.opc-3 {
+  opacity: 0;
+}
+.opc-2 {
+  opacity: 0.5;
+}

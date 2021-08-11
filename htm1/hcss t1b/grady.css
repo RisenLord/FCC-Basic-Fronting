@@ -1,0 +1,24 @@
+div {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(yellow, purple);
+}
+.two {
+  background: linear-gradient(green, purple);
+}
+.thre {
+  background: linear-gradient(to top, yellow, purple, cyan, yellowgreen);
+}
+.four {
+  background: linear-gradient(315deg, orange, blue, crimson, yellow, purple);
+}
+.five {
+  background: linear-gradient(to top right, red, gray, yellow, purple);
+}
+.six {
+  background: linear-gradient(rgb(179, 179, 94), rgb(202, 6, 202));
+}
