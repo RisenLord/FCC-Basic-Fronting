@@ -1,0 +1,26 @@
+/* line height,
+letter spacing,
+word spacing
+text-transform & decor */
+h1 {
+  text-transform: capitalize;
+}
+.h1p1 {
+  line-height: 2.5em;
+}
+.h1p2 {
+  letter-spacing: 5px;
+  text-decoration: overline;
+}
+.h1p3 {
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.h1p4 {
+  text-decoration: line-through;
+}
+.blink1 {
+  font-size: 40px;
+  text-decoration: none;
+}
