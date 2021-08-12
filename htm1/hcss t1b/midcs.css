@@ -1,0 +1,62 @@
+.banner {
+  border: 5px groove brown;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.bmg {
+  float: right;
+}
+
+/* positioning */
+.poz {
+  border: 3px groove navy;
+  background: rgb(255, 230, 0);
+  margin-top: 40px;
+  /* position: static; */
+}
+.poz1 {
+  background: pink;
+}
+.poz2 {
+  background: wheat;
+}
+.special {
+  background: rgb(143, 189, 63);
+  /* position: absolute; */
+}
+.poz3 {
+  background: orange;
+}
+/* position: fixed, this leads to fixing a thing regardless of the scrolling and is usually use for buttons*/
+
+/* Media queries */
+.med {
+  background: violet;
+}
+.crsh1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+/* you can add as many media queries as you wish */
+@media screen and (min-width: 600px) {
+  body {
+    background: linear-gradient(rgb(239, 255, 168), rgb(231, 149, 231));
+  }
+  .med {
+    background: rgb(181, 181, 255);
+  }
+  .crsh1 {
+    font-size: 60px;
+  }
+}
+
+/* indexes */
+.indx {
+  margin: 20px;
+  border: 5px groove rgb(146, 2, 146);
+  /* width: 80vw; */
+  /* height: 70vh; */
+  overflow: hidden;
+}
