@@ -1,24 +1,108 @@
 /* all sorts of transformations */
-div {
+.d1 {
   height: 150px;
   width: 150px;
   display: inline-block;
 }
-.one {
+#one {
   background: rgb(238, 115, 140);
   /* transform: translateX(50%); */
   /* transform: scaleX(0.5); */
   transform: skewX(20deg);
 }
-.two {
+#two {
   background: rgb(93, 220, 20);
   /* transform: translateY(30px); */
   /* transform: scaleY(2); */
   transform: rotateZ(45deg);
 }
-.thr {
+#two:hover {
+  background: red;
+}
+#thr {
   background: rgb(200, 190, 253);
   /* transform: translateX(75px); */
   /* transform: translate(20px, 30px); */
-  transform: skewX(20deg);
+  /* transform: skewX(20deg); */
+  transition-property: background, border-radius;
+  transition-duration: 3s;
+}
+#thr:hover {
+  background: coral;
+  border-radius: 50%;
+}
+
+.d2 {
+  width: 200px;
+  height: 100px;
+  background: rgb(157, 157, 247);
+  margin: 15px;
+  /* display: flex; */
+  transition: all 1s;
+}
+.d2:hover {
+  transform: translateX(100px);
+}
+#ease {
+  transition-timing-function: ease;
+}
+
+.d3 {
+  width: 300px;
+  height: 100px;
+  color: rgb(19, 5, 100);
+  margin: 10px;
+}
+
+#trans {
+  background: red;
+  transition: all 1s linear;
+}
+#trans:hover {
+  background: yellow;
+  transform: translateX(100px);
+}
+
+#anime {
+  background: gray;
+  /* animation-name: move; */
+  /* animation-duration: 3s; */
+  /* animation-iteration-count: 2; */
+  animation: move 3s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: rgb(93, 220, 20);
+  }
+  75% {
+    transform: translateX(50px);
+    background: cyan;
+  }
+}
+
+#anima {
+  background: orchid;
+  animation: movie 2s 3;
+  /* animation-fill-mode: forwards;  [this preserves the last state]*/
+}
+@keyframes movie {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(150px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(50px);
+    opacity: 1;
+  }
 }
