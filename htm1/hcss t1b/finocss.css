@@ -1,0 +1,37 @@
+/* .headn {
+  color: rgb(221, 127, 4);
+}
+.txt {
+  color: lime;
+}
+.main-txt {
+  color: blueviolet;
+}
+.headn2 {
+  color: crimson;
+} */
+
+/* How to deal with alot of options at once */
+:root {
+  --primcolor: rgba(204, 19, 204, 0.644);
+  --secncolor: aqua;
+  --mainTransion: all 2s linear;
+}
+.headn {
+  color: var(--primcolor);
+}
+.headn2 {
+  color: var(--primcolor);
+}
+.headn2:hover {
+  color: var(--secncolor);
+}
+.main {
+  --primeColor: crimson;
+}
+.main-txt {
+  color: var(--primeColor);
+}
+.headn3 {
+  color: var(--primeColor);
+}
