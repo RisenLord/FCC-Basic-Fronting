@@ -12,7 +12,7 @@
 } */
 
 /* How to deal with alot of options at once */
-:root {
+/* :root {
   --primcolor: rgba(204, 19, 204, 0.644);
   --secncolor: aqua;
   --mainTransion: all 2s linear;
@@ -34,4 +34,28 @@
 }
 .headn3 {
   color: var(--primeColor);
+} */
+
+/* icons */
+/* .fa-balance-scale {
+  color: purple;
+}
+.amz-pay {
+  font-size: 4rem;
+  color: green;
+}
+.fa-bitcoin {
+  color: orange;
+} */
+
+/* text/box shadowing */
+.bh1 {
+  text-shadow: 1px 1px 3px green;
+}
+.boxy {
+  width: 200px;
+  height: 100px;
+  background: peru;
+  margin: 10px;
+  box-shadow: 3px 5px 5px rgb(14, 165, 253);
 }
